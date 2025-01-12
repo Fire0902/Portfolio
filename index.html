@@ -31,6 +31,11 @@
     <link href="features.css" rel="stylesheet">
   </head>
   <body>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-filetype-pdf" viewBox="0 0 16 16">
+      <symbol id="pdf" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zM1.6 11.85H0v3.999h.791v-1.342h.803q.43 0 .732-.173.305-.175.463-.474a1.4 1.4 0 0 0 .161-.677q0-.375-.158-.677a1.2 1.2 0 0 0-.46-.477q-.3-.18-.732-.179m.545 1.333a.8.8 0 0 1-.085.38.57.57 0 0 1-.238.241.8.8 0 0 1-.375.082H.788V12.48h.66q.327 0 .512.181.185.183.185.522m1.217-1.333v3.999h1.46q.602 0 .998-.237a1.45 1.45 0 0 0 .595-.689q.196-.45.196-1.084 0-.63-.196-1.075a1.43 1.43 0 0 0-.589-.68q-.396-.234-1.005-.234zm.791.645h.563q.371 0 .609.152a.9.9 0 0 1 .354.454q.118.302.118.753a2.3 2.3 0 0 1-.068.592 1.1 1.1 0 0 1-.196.422.8.8 0 0 1-.334.252 1.3 1.3 0 0 1-.483.082h-.563zm3.743 1.763v1.591h-.79V11.85h2.548v.653H7.896v1.117h1.606v.638z"/>
+      </symbol>
+    </svg>
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
       <symbol id="check2" viewBox="0 0 16 16">
         <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
@@ -46,7 +51,10 @@
         <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
       </symbol>
     </svg>
-
+    <div class="position-fixed bottom-0 end-0 mb-3 bd-mode-toggle">
+      <a href="./CV-Rostaing-Damien.pdf" target="_blank" class="btn btn-primary" style="margin-right: 5rem;"><svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#pdf"></use></svg>CV</a>
+    </div>
+    
     <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
       <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
               id="bd-theme"
@@ -138,6 +146,35 @@
 <main>
   <h1 class="visually-hidden">Features examples</h1>
 
+
+  <div class="container px-4 py-5" id="featured-2">
+    <h2 class="pb-2 border-bottom">Ma présentation de soi</h2>
+      <p>
+        Je suis actuellement en deuxième année de BUT Informatique à l'IUT de Montpellier, option RACDV.
+        Passionné par la programmation depuis longtemps, j'aime réaliser des projets personnels dès que j'ai du temps libre.
+        Curieux et autodidacte, j'ai exploré plusieurs langages de programmation et frameworks JavaScript tels que TensorFlow et ReactJS, même s'ils ne sont pas enseignés dans mon cursus actuel.
+        De plus je manie très bien les Système d'exploitation sous noyaux UNIX ce qui me permet d'avoir une certaine flexibilité lors de la mise en place de serveur web ou autre.
+      </p>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="container px-4 py-5" id="professional-project">
+    <h2 class="pb-2 border-bottom">Projet Professionel</h2>
+    <div class="d-flex flex-column">
+      <p>
+        Mon objectif est de devenir PenTesteur, et je développe activement mes compétences dans ce domaine.
+      </p>
+      <p>
+        Je suis passionné par ce qui est en rapport avec les systeme d'exploitation et ce qui est en rapport avec la cyber-sécurité
+        donc plus tard je chercherais un metier en rapport avec ca meme si ce n'est pas forcement du pentesting malgrès le fait que c'est ce qui me passionne
+      </p>
+    </div>
+  </div>
+
+
+  <div class="b-example-divider"></div>
+  
   <div class="container px-4 py-5" id="featured-3">
     <h2 class="pb-2 border-bottom">Mes centres d'intérêt</h2>
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
@@ -224,13 +261,13 @@
   <div class="b-example-divider"></div>
 
   <div class="container px-4 py-5" id="custom-cards">
-    <h2 class="pb-2 border-bottom">Custom cards</h2>
+    <h2 class="pb-2 border-bottom">Mes plus gros projets</h2>
 
     <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
       <div class="col">
         <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Nuit de l'info</h3>
             <ul class="d-flex list-unstyled mt-auto">
               <li class="me-auto">
                 <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
@@ -251,7 +288,7 @@
       <div class="col">
         <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h3>
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Site sur la poursuite d'études</h3>
             <ul class="d-flex list-unstyled mt-auto">
               <li class="me-auto">
                 <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
@@ -272,7 +309,7 @@
       <div class="col">
         <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">IA fondalmentale en java</h3>
             <ul class="d-flex list-unstyled mt-auto">
               <li class="me-auto">
                 <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
@@ -295,63 +332,63 @@
   <div class="b-example-divider"></div>
 
   <div class="container px-4 py-5" id="icon-grid">
-    <h2 class="pb-2 border-bottom">Icon grid</h2>
+    <h2 class="pb-2 border-bottom">Les langages que je connais</h2>
 
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
       <div class="col d-flex align-items-start">
         <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"/></svg>
         <div>
-          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-          <p>Paragraph of text beneath the heading to explain the heading.</p>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Java</h3>
+          <p>Pour la manipulation de strcture de données</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"/></svg>
         <div>
-          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-          <p>Paragraph of text beneath the heading to explain the heading.</p>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">JavaScript</h3>
+          <p>Pour le web et les application sous electron</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"/></svg>
         <div>
-          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-          <p>Paragraph of text beneath the heading to explain the heading.</p>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">C</h3>
+          <p>Pour le backend et systeme</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"/></svg>
         <div>
-          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-          <p>Paragraph of text beneath the heading to explain the heading.</p>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Rust</h3>
+          <p>Pour le backend ou la stabilité est nécéssaire</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"/></svg>
         <div>
-          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-          <p>Paragraph of text beneath the heading to explain the heading.</p>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">C++</h3>
+          <p>Pour la programmation de jeux vidéos via UnrealEngine</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"/></svg>
         <div>
-          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-          <p>Paragraph of text beneath the heading to explain the heading.</p>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">C#</h3>
+          <p>Pour la programmation de jeux vidéos via Unity</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"/></svg>
         <div>
-          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-          <p>Paragraph of text beneath the heading to explain the heading.</p>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">PHP</h3>
+          <p>Pour le web ou des calculs complexe backend doivent être fait</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"/></svg>
         <div>
-          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-          <p>Paragraph of text beneath the heading to explain the heading.</p>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">PL/SQL</h3>
+          <p>Pour faire de la programmation au niveau de la base de données pour réduire la quantité de code</p>
         </div>
       </div>
     </div>

@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.122.0">
-    <title>Poursuite étude projet</title>
+    <title>Java IA projet</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/heroes/">
 
@@ -82,35 +82,40 @@
 
     
 <main>
-  <h1 class="visually-hidden">Poursuite études</h1>
+  <h1 class="visually-hidden">IAJava</h1>
 
   <div class="px-4 py-5 my-5 text-center">
-    <img class="d-block mx-auto mb-4" src="./ressources/img/20200919113018!Logo_université_montpellier.png" alt="" width="72" height="75">
-    <h1 class="display-5 fw-bold text-body-emphasis">Site sur la poursuite d'étude</h1>
+    <div style="width: 50px; height: 50px;" class="d-block mx-auto mb-4">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"/>
+    </div>
+    <h1 class="display-5 fw-bold text-body-emphasis">IA Fondamentale en java</h1>
+    <h2>Attention ce projet est complexe a comprendre si vous n'avez jamais fait d'informatique et de mathematique</h2>
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4">
-        Ce site permet a un responsable des poursuite d'études et aux école de crée des notes agreges et aussi de voir les note qui on etais crée précedemment pour chaque élève
-        de plus il permet a ce responsabled de mettre un avis favorable ou defavorable pour chaque ecole auxquelle un étudiant a postulé 
+        Ce projet n'etant pas quelque chose de visuel je vais expliquer rapidement ce qu'il fait a l'aide des lignes de code en java
       </p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <a href="https://webinfo.iutmontp.univ-montp2.fr/~rostaingd/sae3a-base/web/controleurFrontal.php" type="button" class="btn btn-primary btn-lg px-4 gap-3">Lien vers le site</a>
-      </div>
+      <p class="lead mb-4"></p>
+        J'ai fait ce projet pour comprendre une partie de l'IA car a cause de ma curiosité je voulais comprendre en le refaisant de zero
+        ce projet contient peut etre des erreurs car je travaille activement dessus
+      </p>
+
     </div>
   </div>
 
   <div class="b-example-divider"></div>
 
   <div class="px-4 pt-5 my-5 text-center border-bottom">
-    <h1 class="display-4 fw-bold text-body-emphasis">Page de Connexion</h1>
+    <h1 class="display-4 fw-bold text-body-emphasis">Quest qu'un neuronne informatique</h1>
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4">
-        Le site possède une page de connexion qui permet de se connecter a LDAP quand rien n'a etais clické puis 
-        si un bouton de autre connexion est clické cela active la connexion via les utilisateur de la base de données</p>
-      
+        Un neuronne simplement c'est quelque chose qui va prendre une/plusieur entrée et qui va avoir un poid (qui désigne l'importance du neuronne dans le réseau)
+        ensuite il va avoir une seule et unique sortie pour calculer sa sortie un neuronne va faire en sorte d'utiliser la fonction d'activation qui va elle meme appeler
+        la fonction de la somme pondéré pour avoir le résultat final du neuronne.
+        </p> 
     </div>
     <div class="overflow-hidden" >
       <div class="container px-5">
-        <img src="./ressources/img/ConnexionPE.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+        <img src="./ressources/img/IANeuron.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
       </div>
     </div>
   </div>
@@ -118,16 +123,20 @@
   <div class="b-example-divider"></div>
 
   <div class="px-4 pt-5 my-5 text-center border-bottom">
-    <h1 class="display-4 fw-bold text-body-emphasis">Page de d'acceuil</h1>
+    <h1 class="display-4 fw-bold text-body-emphasis">Quest qu'un Réseau de neuronne</h1>
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4">
-        Un fois connecter en tant que Responsable de poursuite d'étude on vois la page d'acceuil qui nous permet de choisir ce que l'on souhaite faire
+        Pour simplifier un réseau de neuronne c'est plusieurs neuronne réunis qui vont être connecté ensemble, pour etre plus précis il va y avoir les neuronnes d'entrer qui 
+        eux vont prendre les valeur qu'on veut pour qu'il en donne le résultat ensuite il va y avoir la couche du millieu qui elle va prendre le resultat de chaque neuronne de la couche 
+        précedente et pour finir on va avoir le neuronne final qui lui va donner la sortie. Ce qui est complexe a comprendre c'est comment ca se fait que ca donne le bon résultat 
+        alors que le réseau va s'entrainer tout mais il ne faut pas faire l'erreur d'esssayer de comprendre parce que actuellement personne n'a la réponse on sait juste que ca marche. Le réseau de neuronne va avoir
+        la fonction de perte qui permet de savoir de combien c'est tromper le réseau ce qui va permettre au réseau d'utiliser la descente de gradient pour ajuster ces biais et son poid pour pouvoir trouver le bonne entrainement.
       </p>
       
     </div>
     <div class="overflow-hidden">
       <div class="container px-5">
-        <img src="./ressources/img/poursuite_etude_accueil_responsable.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+        <img src="./ressources/img/NeuralNetworkCreation.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
       </div>
     </div>
   </div>
@@ -135,46 +144,33 @@
   <div class="b-example-divider"></div>
 
   <div class="px-4 pt-5 my-5 text-center border-bottom">
-    <h1 class="display-4 fw-bold text-body-emphasis">Tableau des notes agreges</h1>
+    <h1 class="display-4 fw-bold text-body-emphasis">Résultat</h1>
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4">
-        Après avoir clické sur résultat cela nous mène vers une page qui permet de voir un tableau avec tout les étudiants et quand ont click sur une note agrege du tableau a gauche cela va ajouter une colone au tableau avec les notes des étudiants
+        A la fin du réseau de neuronne on obtient le résultat a ce qu'on a passé en entrée, ce résultat va se représenter par un chiffre a virgule entre 0 et 1
+        il va donc falloir faire une bijection des resultat pour trouver la vrai valeur du résultat que l'on veut
       </p>
       
     </div>
     <div class="overflow-hidden" >
       <div class="container px-5">
-        <img src="./ressources/img/poursuite_etude_notes.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+        <img src="./ressources/img/IAPrediction.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
       </div>
     </div>
   </div>
 
   <div class="b-example-divider"></div>
 
-  <div class="px-4 pt-5 my-5 text-center border-bottom">
-    <h1 class="display-4 fw-bold text-body-emphasis">Création de notes agreges</h1>
-    <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">
-        Cette page permet de crée des note qui seront visible dans le tableau de la section d'avant on peut y ajouter d'autre notes agrege et leur mettre des coefficient de plus on peut faire en sorte de mettre des notes normale comme des note de ressource ou SAE
-      </p>
-      
-    </div>
-    <div class="overflow-hidden">
-      <div class="container px-5">
-        <img src="./ressources/img/poursuite_etude_agregation.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="700">
-      </div>
-    </div>
-  </div>
 
   <div class="b-example-divider"></div>
 
   <div class="bg-dark text-secondary px-4 py-5 text-center">
     <div class="py-5">
-      <h1 class="display-5 fw-bold text-white">Plus de fonctionnalité sont encore a découvrir!</h1>
+      <h1 class="display-5 fw-bold text-white">Fonctionnalité non montrées</h1>
       <div class="col-lg-6 mx-auto">
         <p class="fs-5 mb-4">
-          encore plein d'autre fonctionnalité sont disponible seulement pour ne pas innonder cette page j'ai fait la décision de ne montrer que les fonctionnalité les plus importante
-          seulement d'autre fonctionnalité comme la mise a jour de note agrégées ou la connexion en tant qu'étudiant la candidature d'étudiant sont disponible
+          Sur ce projet je n'ai pas pu tout montrer car cela serait trop compliqué a expliquer via ce format texte qui ne me permet pas de tout dire sur le sujet sans ennuyer la personne qui lis
+          de plus je pense que cette partie n'est pas très claire donc je la modifierais plus tard pour qu'elle le soit
         </p>
       </div>
     </div>
